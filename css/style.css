@@ -61,7 +61,7 @@ a {
 }
 
 .app-name h2 {
-    font-size: 2rem;
+    font-size: 1.7rem;
     font-weight: 400;
 }
 
@@ -122,23 +122,16 @@ details {
     transition: 0.3s ease;
 }
 
-details:hover {
-    color: orangered;
-}
-
-summary {
-    font-size: 1.6rem;
-    list-style: none;
-}
-
-summary::-webkit-details-marker {
-    display: none;
-}
-
-details p {
-    margin-top: 15px;
+.con-faq p {
+    margin: 15px 0 15px 0;
     color: #666;
     line-height: 1.6;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #666;;
+    margin-bottom: 10px;
 }
 
 footer {
@@ -152,11 +145,11 @@ footer {
     }
 
     .con-hero h1 {
-        font-size: 2.4rem;
+        font-size: 2.8rem;
     }
 
     .app-name h2 {
-        font-size: 1.8rem;
+        font-size: 1.2rem;
     }
 
     .con-img {
