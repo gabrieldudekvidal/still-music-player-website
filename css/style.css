@@ -9,19 +9,19 @@
 body {
     color: #fff;
     min-height: 100vh;
-    font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display",
-                "SF Pro Text", "Helvetica Neue", Arial, sans-serif;
-                background: #454545;
-                background: linear-gradient(90deg, rgba(69, 69, 69, 1) 0%, rgba(0, 0, 0, 1) 100%);
+    font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text", "Helvetica Neue", Arial, sans-serif;
+    background: #000338;
+    background: linear-gradient(180deg, rgba(0, 3, 56, 1) 0%, rgba(0, 0, 0, 1) 100%);
 }
 
 a {
     text-decoration: none;
-    color: #7EE070;
+    color: #2051C7;
 }
 
 h2 {
-    font-weight: 500;
+    font-weight: 400;
+    font-size: 20px;
 }
 
 .wrapper {
@@ -54,7 +54,6 @@ h2 {
 }
 
 .con-hero h1 {
-    font-family: "Cormorant Garamond", sans-serif;
     margin-bottom: -10px;
     font-size: 4.5rem;
     font-weight: 700;
@@ -66,30 +65,15 @@ h2 {
 }
 
 .con-desc p {
-    color: #666;
+    color: #9E9E9E;
 }
 
 .con-btn, .con-desc {
     margin-top: 60px;
 }
 
-.con-img {
-    margin-top: 70px;
-    background-color: #2B2B2B;
-    background-image: url("../images/con-bg.png");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    padding: 120px;
-    border-radius: 50px;
-}
-
-.img-app {
-    width: 100%;
-    border-radius: 25px;
-}
-
 .btn-download {
+    font-size: 14px;
     display: inline-flex;
     align-items: center;
     gap: 10px;
@@ -109,11 +93,11 @@ h2 {
 }
 
 .apple-logo {
-    width: 35px;
+    width: 25px;
 }
 
 .con-faq {
-    margin: 50px auto;
+    margin: 150px auto;
 }
 
 details {
@@ -125,7 +109,7 @@ details {
 
 .con-faq p {
     margin: 15px 0 15px 0;
-    color: #666;
+    color: #9E9E9E;
     line-height: 1.6;
 }
 
@@ -137,7 +121,7 @@ hr {
 
 footer {
     text-align: center;
-    margin: 50px 0px 20px 0;
+    margin: 100px 0px 20px 0;
 }
 
 @media screen and (max-width: 480px) {
